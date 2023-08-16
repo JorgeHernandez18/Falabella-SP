@@ -24,12 +24,14 @@ public class ClickRandomProduct implements Interaction {
             EscrituraExcel.escrituraExcel(
                     "src/test/resources/Data/Data.xlsx",
                     titles.get(indexRandom).getText(),1,1);
+            actor.remember("title", titles.get(indexRandom).getText());
         } else {
             List<WebElementFacade> titles = LBL_ALTERNAL_PRODUCT_NAME.resolveAllFor(actor);
             indexRandom = Random.getRandom(titles.size());;
             EscrituraExcel.escrituraExcel(
                     "src/test/resources/Data/Data.xlsx",
                     titles.get(indexRandom).getText(),1,1);
+            actor.remember("title", titles.get(indexRandom).getText());
             actor.attemptsTo(
                     HoverOverTarget.over(titles.get(indexRandom))
             );

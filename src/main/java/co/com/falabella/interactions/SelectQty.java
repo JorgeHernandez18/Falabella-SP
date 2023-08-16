@@ -16,6 +16,7 @@ public class SelectQty implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         qty = Random.getRandom(20);
+        actor.remember("qty", String.valueOf(qty));
         actor.attemptsTo(
                 Clear.field(TXT_QTY),
                 Enter.theValue( qty+"").into(TXT_QTY).thenHit(Keys.ENTER)
