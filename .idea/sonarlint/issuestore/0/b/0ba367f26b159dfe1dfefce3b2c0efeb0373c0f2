@@ -1,0 +1,24 @@
+
+x
+java:S1104"VMake TXT_SEARCH a static final constant or non-public and provide accessors if needed.(ú×¼ùÿÿÿÿ8ÈØŒØŸ1
+t
+java:S1104
+"WMake SHADOW_HOST a static final constant or non-public and provide accessors if needed.(øÄƒ8¯ŸšÚŸ1
+}
+java:S1104"[Make BTN_SHADOW_DENY a static final constant or non-public and provide accessors if needed.(ğÂöøÿÿÿÿ8ı½™ÚŸ1
+R
+java:S1444"0Make this "public static TXT_SEARCH" field final(ú×¼ùÿÿÿÿ8ÈØŒØŸ1
+N
+java:S1444
+"1Make this "public static SHADOW_HOST" field final(øÄƒ8¾ŸšÚŸ1
+W
+java:S1444"5Make this "public static BTN_SHADOW_DENY" field final(ğÂöøÿÿÿÿ8ı½™ÚŸ1
+w
+java:S3008"URename this field "TXT_SEARCH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú×¼ùÿÿÿÿ8ÈØŒØŸ1
+s
+java:S3008
+"VRename this field "SHADOW_HOST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÄƒ8¾ŸšÚŸ1
+|
+java:S3008"ZRename this field "BTN_SHADOW_DENY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÂöøÿÿÿÿ8«¾™ÚŸ1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(‚ëÚ‡şÿÿÿÿ8ØØŒØŸ1
