@@ -11,8 +11,6 @@ d
 4src/main/java/co/com/falabella/ui/ConfirmCartUI.java,3\3\33c40b03f4b315aacfe6964e5c1429538c2ceb9e
 i
 9src/main/java/co/com/falabella/tasks/ConfirmCartTask.java,b\b\bbb5ec4d7cb2a6a244f84d7731b03bc883a261c7
-{
-Ksrc/test/java/co/com/falabella/stepDefinitions/AddProductToCartStepDef.java,6\7\6768a4f12cb7aeb419f9d69caffae8084cd4ff85
 `
 0src/main/java/co/com/falabella/utils/Random.java,a\a\aa0fb73aa6a527f6270a0319a3e2698ac8cd12d8
 h

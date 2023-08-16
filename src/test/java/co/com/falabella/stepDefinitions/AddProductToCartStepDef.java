@@ -1,6 +1,7 @@
 package co.com.falabella.stepDefinitions;
 
 import co.com.falabella.questions.ProductValidationQuestion;
+import co.com.falabella.questions.QuantityValidationQuestion;
 import co.com.falabella.tasks.ConfirmCartTask;
 import co.com.falabella.tasks.HomeTask;
 import co.com.falabella.tasks.ProductsListTask;
@@ -40,6 +41,9 @@ public class AddProductToCartStepDef {
         theActorInTheSpotlight().should(
                 seeThat(
                         ProductValidationQuestion.from()
+                ),
+                seeThat(
+                        QuantityValidationQuestion.from()
                 )
         );
     }
