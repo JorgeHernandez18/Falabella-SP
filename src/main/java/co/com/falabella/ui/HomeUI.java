@@ -13,10 +13,10 @@ public class HomeUI {
     public static Target BTN_SHADOW_DENY = Target.the("Button to deny")
             .locatedBy("button.airship-btn.airship-btn-deny");
 
-    public static Target COOCKIE_HOST = Target.the("Cookie's host")
+    public static Target COOKIE_HOST = Target.the("Cookie's host")
             .locatedBy("//footer[@class='Footer-module_footerContainer__FyULU Footer-module_rebranding__32k0H Footer-module_has-legal-banner__1_wrC']");
 
     //button#testId-accept-cookies-btn
-    public static Target BTN_COOCKIE_ACCEPT = Target.the("Button to accept the coockies")
+    public static Target BTN_COOKIE_ACCEPT = Target.the("Button to accept the cookies")
             .locatedBy("//button[@id='testId-accept-cookies-btn']");
 }

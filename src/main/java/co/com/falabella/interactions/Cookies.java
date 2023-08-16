@@ -7,10 +7,10 @@ import net.serenitybdd.screenplay.Performable;
 import static co.com.falabella.ui.HomeUI.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class Coockies implements Interaction {
+public class Cookies implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
-        COOCKIE_HOST.resolveFor(actor).findBy(BTN_COOCKIE_ACCEPT.getCssOrXPathSelector()).click();
+        COOKIE_HOST.resolveFor(actor).findBy(BTN_COOKIE_ACCEPT.getCssOrXPathSelector()).click();
     }
-    public static Performable getCoockies(){return instrumented(Coockies.class);}
+    public static Performable getCoockies(){return instrumented(Cookies.class);}
 }
