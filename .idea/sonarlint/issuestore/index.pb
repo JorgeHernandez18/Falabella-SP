@@ -11,8 +11,6 @@ d
 4src/main/java/co/com/falabella/ui/ConfirmCartUI.java,3\3\33c40b03f4b315aacfe6964e5c1429538c2ceb9e
 i
 9src/main/java/co/com/falabella/tasks/ConfirmCartTask.java,b\b\bbb5ec4d7cb2a6a244f84d7731b03bc883a261c7
-b
-2src/main/java/co/com/falabella/tasks/CartTask.java,8\f\8fa13cd78d3a17cc99dc79794fd7f2a55ec0f6fb
 {
 Ksrc/test/java/co/com/falabella/stepDefinitions/AddProductToCartStepDef.java,6\7\6768a4f12cb7aeb419f9d69caffae8084cd4ff85
 `
@@ -21,9 +19,3 @@ h
 8src/main/java/co/com/falabella/utils/EscrituraExcel.java,6\f\6fd6550af5c1a82aa444e23a90d072ef52585343
 j
 :src/main/java/co/com/falabella/tasks/ProductsListTask.java,3\e\3e7c94bda3df78fc812a61e4e3fc5c75801733c9
-b
-2src/main/java/co/com/falabella/tasks/HomeTask.java,6\a\6a1d2aea907598cc11d422fa93e06d4740b26771
-n
->src/main/java/co/com/falabella/interactions/ShadowElement.java,f\d\fd3f17f89161ba5ecb75ca8ac48fa9fe22212563
-]
--src/main/java/co/com/falabella/ui/HomeUI.java,0\b\0ba367f26b159dfe1dfefce3b2c0efeb0373c0f2

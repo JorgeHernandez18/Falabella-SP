@@ -3,6 +3,7 @@ package co.com.falabella.interactions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
+import net.serenitybdd.screenplay.actions.Browser;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.SearchContext;
@@ -15,6 +16,7 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isCurr
 /*
 * Website where i found information about shadow elements
 * https://titusfortner.com/2021/11/22/shadow-dom-selenium.html
+* Author: Jorge Hernández
 * */
 public class ShadowElement implements Interaction {
     @Override

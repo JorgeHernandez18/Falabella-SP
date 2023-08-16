@@ -1,5 +1,6 @@
 package co.com.falabella.tasks;
 
+import co.com.falabella.interactions.Coockies;
 import co.com.falabella.interactions.Search;
 import co.com.falabella.interactions.ShadowElement;
 import co.com.falabella.utils.Data;
@@ -16,6 +17,7 @@ public class HomeTask implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 ShadowElement.shadowClick(),
+                Coockies.getCoockies(),
                 Search.search()
         );
     }
