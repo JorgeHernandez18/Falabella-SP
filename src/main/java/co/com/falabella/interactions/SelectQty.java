@@ -23,8 +23,4 @@ public class SelectQty implements Interaction {
         );
     }
     public static Performable qty(){return instrumented(SelectQty.class);}
-
-    public static int getQty() {
-        return qty;
-    }
 }

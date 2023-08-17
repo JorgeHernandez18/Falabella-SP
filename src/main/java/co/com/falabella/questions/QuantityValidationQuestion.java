@@ -1,6 +1,5 @@
 package co.com.falabella.questions;
 
-import co.com.falabella.interactions.SelectQty;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
