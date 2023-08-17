@@ -1,6 +1,7 @@
 package co.com.falabella.interactions;
 
 import co.com.falabella.utils.EscrituraExcel;
+import co.com.falabella.utils.Llave;
 import co.com.falabella.utils.Random;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
@@ -24,7 +25,7 @@ public class ClickRandomProduct implements Interaction {
             EscrituraExcel.escrituraExcel(
                     "src/test/resources/Data/Data.xlsx",
                     titles.get(indexRandom).getText(),1,1);
-            actor.remember("title", titles.get(indexRandom).getText());
+            actor.remember(Llave.Title.toString(), titles.get(indexRandom).getText());
         } else {
             List<WebElementFacade> titles = LBL_ALTERNAL_PRODUCT_NAME.resolveAllFor(actor);
             indexRandom = Random.getRandom(titles.size());;
